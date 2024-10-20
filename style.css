@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: beige;
+  
+}
+.heading{
+  text-align: center;
+  padding: 4vmin;
+  border-bottom: 1px solid black;
+  color: #910027;
+}
+.reset{
+  padding: 2%;
+  text-align: center;
+}
+#resetbtn{
+  padding: 1%;
+  background-color:rgb(153, 209, 255) ;
+  border-radius: 0.5rem;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60vmin;
+  height: 60vmin;
+  background-color:rgb(174, 169, 169);
+  gap: 1vmin;
+  border-radius: 1rem;
+
+}
+.btn{
+  width: 16vmin;
+  height: 16vmin;
+  border-radius: 1rem;
+  background-color:none;
+  font-size: 3rem;
+  border: 1px solid black;
+  color: black;
+}
+.newgame{
+  text-align: center;
+  padding: 2%;
+  color:blue ;
+}
+#new{
+  padding: 1%;
+  background-color: rgb(67, 131, 184);
+  border-radius: 1rem;
+}
+
+#msg{
+  text-align: center;
+  font-size: xx-large;
+}
