@@ -47,6 +47,8 @@ reset.addEventListener("click", () => {
   count = 0;
   btn.forEach((b) => {
     b.innerText = "";
+    msg.innerText = "";
+
     b.disabled = false;
     turn0 = true;
   });
